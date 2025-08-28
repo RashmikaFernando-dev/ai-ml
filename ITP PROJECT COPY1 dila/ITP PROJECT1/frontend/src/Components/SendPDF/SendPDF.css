@@ -1,0 +1,24 @@
+/*SendPDF*/
+h3{
+    text-align: center;
+    font-size: 30px;
+    text-decoration:underline;
+}
+
+.show-pdf-btn {
+  width: 500px; 
+  padding: 15px 15px;
+  font-size: 20px;
+  background-color: #5cbf65; /* match your theme */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* center the button */
+  transition: 0.3s ease;
+}
+
+.show-pdf-btn:hover {
+  background-color: #aeb16b;
+}

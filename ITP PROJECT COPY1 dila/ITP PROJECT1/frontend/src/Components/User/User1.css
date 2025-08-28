@@ -1,0 +1,44 @@
+.update {
+  background-color: #81c784; /* light green */
+  color: #1b5e20;
+ 
+ width: 500px; 
+  padding: 15px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* center the button */
+  transition: 0.3s ease;
+  
+}
+
+.delete {
+  background-color: #dce775; /* light yellow */
+  color: #33691e;
+  width: 500px; 
+  padding: 15px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* center the button */
+  transition: 0.3s ease;
+}
+
+.user-box1 {
+  background-color: #ffffff;
+  border: 2px solid #d3e660;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 60%;             /* Expand width */
+  max-width: 500px;       /* Set max limit for large screens */
+  margin: 30px auto;      /* Center horizontally */
+  text-align: center;
+
+}
+
+

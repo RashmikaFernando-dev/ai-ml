@@ -1,0 +1,35 @@
+/* Reset default styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar styling */
+.home-ul {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* List item styling */
+.home-ll {
+  margin-right: 30px;
+}
+
+.home-ll h1 {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.home-ll:hover h1 {
+  background-color: #575757;
+  color: #fff;
+}
